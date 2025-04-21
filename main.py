@@ -83,7 +83,8 @@ while True:
     cv2.imshow("Original Video", frame)
     # Display the processed video for detection
     cv2.imshow("Detection", closed_frame)
-
+    
+    
     # Exit the loop when the ESC key is pressed
     if cv2.waitKey(1) == 27:
         break
